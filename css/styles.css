@@ -4,6 +4,7 @@
 #2
 */
 
+
 body{
     background-color:#2C3335;
     color:white!important;
@@ -65,7 +66,6 @@ header{
 header ul{
    display:inline-block;
    background-color: #2C3335;
-   position:fixed;
    text-align:center;
    padding:10px;
    margin:0;
@@ -121,7 +121,7 @@ header.sticky{
 }
 #mobile-menu-close{
    display:none;
-   text-align:right;
+   text-align:center;
    width:100%;
    background-color: #2C3335;
    font-size:1.5em;
@@ -668,4 +668,21 @@ footer{
        font-size:0.9em;
        padding:5px 10px
    }
+}
+
+
+
+
+
+
+header.active {
+    width: 100%;
+	}
+@media only screen and (max-width: 768px)
+header {
+    width: 100%;
+}
+@media only screen and (max-width: 768px)
+#mobile-menu-open, #mobile-menu-close {
+    z-index: 99999;
 }
