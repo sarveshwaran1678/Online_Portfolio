@@ -2,14 +2,12 @@
 
 This repo contains an easy-to-customize personal dev portfolio template that was created with Sass and JavaScript. It is lightweight and fully responsive, as well as comes with the Bootstrap grid system and loaded with Font Awesome. The site is static and comes production ready if you just want to add your information and go. Alternatively, you can edit styles, colours, and scripts fairly easily. The site was built as modular as possible to make it easy to shift around styles and content.
 
-To view a live demo, [click here](https://ryanfitzgerald.github.io/devportfolio/).
+To view a live demo, [click here](https://sarveshwaran1678.github.io/Online_Portfolio/).
 
-Looking for a blog template? Checkout [DevBlog](https://github.com/RyanFitzgerald/devblog).
 
 ## Features
 
-* Gulp ready (compiles Sass and minifies JS)
-* Sass ready with lots of commenting
+* Gulp ready (compiles css and minifies JS)
 * Fully responsive
 * Comes with Bootstrap grid system
 * Easy colour changes can be done through simple variable edits
@@ -29,7 +27,6 @@ Looking for a blog template? Checkout [DevBlog](https://github.com/RyanFitzgeral
     - [Education Section](#education-section)
     - [Projects Section](#projects-section)
     - [Skills Section](#skills-section)
-    - [Contact Section](#contact-section)
     - [Footer Section](#footer-section)
     - [Optional Sections](#optional-sections)
 - [Changelog](#changelog)
@@ -242,22 +239,7 @@ The Skills section is simply an unordered list that spits out a "Skill Cloud" wi
     <li>Node.js</li>
 </ul>
 ```
-
-### Contact Section
-
-Since the page is static, I opted to use the awesome Formspree to allow for a contact form without the need for anything else. To use it, you must have the page hosted on a server (loading a basic HTML page won't work) where a referrer header is generated. Also, simply add the email to the action. An example is as follows:
-
-```HTML
-<form method="POST" action="https://formspree.io/email@email.com">
-    <input type="hidden" name="_subject" value="Contact request from personal website" />
-    <input type="email" name="_replyto" placeholder="Your email" required>
-    <textarea name="message" placeholder="Your message" required></textarea>
-    <button type="submit">Send</button>
-</form>
-```
-For more information on configuration of the contact form or dealing with errors, check out [Formspree](https://formspree.io/).
-
-For a quick tutorial about formspree, check out this [tutsplus tutorial](https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870) that covers different aspects and features of the form tool.
+.
 
 ### Footer Section
 
