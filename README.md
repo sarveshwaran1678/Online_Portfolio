@@ -27,7 +27,6 @@ To view a live demo, [click here](https://sarveshwaran1678.github.io/Online_Port
     - [Education Section](#education-section)
     - [Projects Section](#projects-section)
     - [Skills Section](#skills-section)
-    - [Contact Section](#contact-section)
     - [Footer Section](#footer-section)
     - [Optional Sections](#optional-sections)
 - [Changelog](#changelog)
@@ -240,22 +239,7 @@ The Skills section is simply an unordered list that spits out a "Skill Cloud" wi
     <li>Node.js</li>
 </ul>
 ```
-
-### Contact Section
-
-Since the page is static, I opted to use the awesome Formspree to allow for a contact form without the need for anything else. To use it, you must have the page hosted on a server (loading a basic HTML page won't work) where a referrer header is generated. Also, simply add the email to the action. An example is as follows:
-
-```HTML
-<form method="POST" action="https://formspree.io/email@email.com">
-    <input type="hidden" name="_subject" value="Contact request from personal website" />
-    <input type="email" name="_replyto" placeholder="Your email" required>
-    <textarea name="message" placeholder="Your message" required></textarea>
-    <button type="submit">Send</button>
-</form>
-```
-For more information on configuration of the contact form or dealing with errors, check out [Formspree](https://formspree.io/).
-
-For a quick tutorial about formspree, check out this [tutsplus tutorial](https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870) that covers different aspects and features of the form tool.
+.
 
 ### Footer Section
 
